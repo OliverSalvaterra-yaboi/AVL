@@ -8,8 +8,14 @@ namespace AVL
         {
             var tree = new AVL<int>();
 
-            tree.insert(5);
-            tree.insert(7);
+            for(int i = 1; i < 10; i++)
+            {
+                tree.insert(i);
+            }
+            for(int i = 1; i < 10; i++)
+            {
+                tree.remove(i);
+            }
         }
     }
 }

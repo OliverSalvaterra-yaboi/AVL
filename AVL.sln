@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVL", "AVL\AVL.csproj", "{F77A56CB-F092-4B03-B890-39C933F7CD02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AVL", "AVL\AVL.csproj", "{F77A56CB-F092-4B03-B890-39C933F7CD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVL.Tests", "AVL.Tests\AVL.Tests.csproj", "{BFEFB254-C25A-4CE2-AF67-7FF6D154EBA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F77A56CB-F092-4B03-B890-39C933F7CD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77A56CB-F092-4B03-B890-39C933F7CD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77A56CB-F092-4B03-B890-39C933F7CD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEFB254-C25A-4CE2-AF67-7FF6D154EBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEFB254-C25A-4CE2-AF67-7FF6D154EBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEFB254-C25A-4CE2-AF67-7FF6D154EBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEFB254-C25A-4CE2-AF67-7FF6D154EBA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
